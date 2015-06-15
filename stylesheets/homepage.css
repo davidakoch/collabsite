@@ -43,3 +43,22 @@ ul.nav li {
 	display: block;
 	width: 500px;
 }
+
+#cutePuppyShowoff {
+	width: 30%;
+	float: left;
+	margin-right: 10px;
+}
+
+#page3heading{
+	margin-bottom: 0px; 
+	text-align: center;
+}
+
+#page3list{
+	list-style-type: circle;
+	display: inline-block;
+	padding-left: 425px;
+	margin-top: 0px;
+	font-weight: bold;
+}
