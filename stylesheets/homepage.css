@@ -1,3 +1,11 @@
+p {
+	display: inline;
+
+}
+
+
+
+
 ul.nav {
 	text-align: right;
 	margin-right: 20px;
@@ -7,4 +15,31 @@ ul.nav li {
 	display: inline;
 	list-style: none;
 
+}
+
+
+
+#cuteWhitePuppy{
+	width: 30%;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px; 
+
+}
+
+#page2heading{
+	text-align: center;
+
+}
+
+#page2SubHeading{
+	text-align: center;
+
+}
+
+#animalTesting {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 500px;
 }
