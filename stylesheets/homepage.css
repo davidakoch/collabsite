@@ -1,21 +1,44 @@
-p {
-	display: inline;
-
+/* I added these changes to the body, i think we should break this up into multiple stylesheets */
+body {
+	background: #FAEBD7;
+	font-family: "Verdana", Geneva, sans-serif;
 }
 
 
-
-
+/* nav links */
 ul.nav {
 	text-align: right;
+	list-style: none;
 	margin-right: 20px;
 }
 
 ul.nav li {
 	display: inline;
-	list-style: none;
-
+	padding: 40px 30px;
+	font-size: 20px;
 }
+
+
+a:link {
+	color: #008080;
+}
+a:visited {
+	color: #008080;
+}
+a:hover {
+	color: #707070;
+}
+a:active{
+	color: #008080;
+}
+
+
+h1 {
+	text-decoration: overline underline;
+	font-size: 40px;
+}
+
+/* end of changes and additions for all the pages, changes to index/homepage are on indexstyle.css */
 
 
 
