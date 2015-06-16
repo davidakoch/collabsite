@@ -40,6 +40,27 @@ h1 {
 
 /* end of changes and additions for all the pages, changes to index/homepage are on indexstyle.css */
 
+/*index page specifics*/
+.rats {
+	width: 40%;
+	border: 10px solid black;
+	margin: 20px 40px;
+	float: right;
+}
+
+.ref {
+	list-style-type: circle;
+}
+
+.content {
+	padding: 20px;
+}
+
+.note {
+	font-size: 12px;
+	font-style: italic;
+}
+
 
 
 #cuteWhitePuppy{
@@ -85,3 +106,21 @@ h1 {
 	margin-top: 0px;
 	font-weight: bold;
 }
+
+/* footer stuff */
+.footer {
+	background: #EAB988;
+	padding: 30px;
+	clear: both;
+}
+
+#donate {
+	float: left;
+}
+
+#email {
+	float: right;
+}
+
+
+
