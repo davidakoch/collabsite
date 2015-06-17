@@ -117,11 +117,17 @@ h1 {
 /* footer stuff */
 .footer {
 	background: #EAB988;
-	padding: 30px;
+	margin: 20px 0px;
+	padding: 5px;
+  	height: 68px;
+  	padding-top: 30px;
 	clear: both;
 }
 
 #donate {
+	background-color: #D3D3D3;
+	width: 20%;
+    height: 45px;
 	float: left;
 }
 
