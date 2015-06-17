@@ -18,6 +18,13 @@ ul.nav li {
 	font-size: 20px;
 }
 
+.icons {
+	list-style: none;
+}
+
+.icons li {
+	display: inline;
+}
 
 a:link {
 	color: #008080;
