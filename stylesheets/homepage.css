@@ -4,27 +4,12 @@ body {
 	font-family: "Verdana", Geneva, sans-serif;
 }
 
-
-/* nav links */
-ul.nav {
-	text-align: right;
-	list-style: none;
-	margin-right: 20px;
+h1 {
+	text-decoration: overline underline;
+	font-size: 40px;
 }
 
-ul.nav li {
-	display: inline;
-	padding: 40px 30px;
-	font-size: 20px;
-}
-
-.icons {
-	list-style: none;
-}
-
-.icons li {
-	display: inline;
-}
+/*links*/
 
 a:link {
 	color: #008080;
@@ -40,20 +25,24 @@ a:active{
 }
 
 
-h1 {
-	text-decoration: overline underline;
-	font-size: 40px;
+
+/* nav links */
+ul.nav {
+	text-align: right;
+	list-style: none;
+	margin-right: 20px;
 }
 
-/* end of changes and additions for all the pages, changes to index/homepage are on indexstyle.css */
-
-/*index page specifics*/
-.rats {
-	width: 40%;
-	border: 10px solid black;
-	margin: 20px 40px;
-	float: right;
+ul.nav li {
+	display: inline;
+	padding: 40px 30px;
+	font-size: 20px;
 }
+
+
+
+
+
 
 .ref {
 	list-style-type: circle;
@@ -69,12 +58,58 @@ h1 {
 }
 
 
+/* icon navigation*/
+.icons {
+	list-style: none;
+	text-align: right;
+	display: block;
+	margin-right: 40px;
+}
+
+.icons li {
+	display: inline;
+}
+
+
+
+/*photographs*/
 
 #cuteWhitePuppy{
 	width: 30%;
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 10px; 
+
+}
+
+#cutePuppyShowoff {
+	width: 30%;
+	float: left;
+	margin-right: 10px;
+}
+
+.rats {
+	width: 40%;
+	border: 10px solid black;
+	margin: 20px 40px;
+	float: right;
+}
+
+/*icons*/
+
+#twitter {
+	margin-left:20px;
+
+}
+
+#instagram {
+	margin-left: 20px;
+}
+
+#instagrampic{
+	padding-bottom: 0px;
+	display: inline-block;
+
 
 }
 
@@ -95,11 +130,7 @@ h1 {
 	width: 500px;
 }
 
-#cutePuppyShowoff {
-	width: 30%;
-	float: left;
-	margin-right: 10px;
-}
+
 
 #page3heading{
 	margin-bottom: 0px; 
