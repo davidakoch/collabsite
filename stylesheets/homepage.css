@@ -27,6 +27,16 @@ a:active{
 
 
 /* nav links */
+#header {
+	width: 100%;
+	background-color: #ff9a4e;
+	height: 60px;
+	opacity: 0.8;
+	position: fixed;
+	display: block;
+}
+
+
 ul.nav {
 	text-align: right;
 	list-style: none;
@@ -160,6 +170,7 @@ ul.nav li {
 	width: 20%;
     height: 45px;
 	float: left;
+	border-radius: 5px;
 }
 
 #email {
