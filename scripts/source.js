@@ -2,15 +2,15 @@ $(document).ready(function() {
 
 
 
-	$("#donate").click(function(){
+	$("#donate, #donateHeader").click(function(){
 
 		alert("Thanks for Donating!")
 		});
 
-	$("#donateHeader").click(function(){
+	/*$("#donateHeader").click(function(){
 
 		alert("Thanks for Donating!");
-		});
+		});*/
 
 
 
