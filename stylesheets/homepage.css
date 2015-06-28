@@ -11,6 +11,10 @@ h1 {
 
 /*links*/
 
+a{
+	position: relative;
+}
+
 a:link {
 	color: #008080;
 }
@@ -22,6 +26,8 @@ a:hover {
 }
 a:active{
 	color: #008080;
+	top: 2px;
+	background-color: red;
 }
 
 
@@ -58,6 +64,7 @@ ul.nav li {
 	padding: 40px 30px;
 	font-size: 20px;
 }
+
 
 
 
