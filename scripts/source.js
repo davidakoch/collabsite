@@ -12,6 +12,10 @@ $(document).ready(function() {
 		alert("Thanks for Donating!");
 		});*/
 
+	/*create the jquery slideshow*/
+
+	
+
 
 
 
